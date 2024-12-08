@@ -3,6 +3,8 @@ Biodiversity Intactness Index (BII) change in Phoenix, AZ
 
 This repository explores the impacts of urban expansion in Phoenix, AZ on biodiversity. This will be accomplished by using the change in Biodiversity Intactness Index (BII) from 2017 to 2020.
 
+![BII Map](bii_phx_map.png)
+
 ### Repository structure
 
 ```bash
