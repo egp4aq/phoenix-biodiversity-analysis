@@ -11,20 +11,26 @@ This repository explores the impacts of urban expansion in Phoenix, AZ on biodiv
 phoenix-biodiversity-analysis
 │
 └── data 
-    │   tl_2020_04_cousub.shp  
+    ├── tl_2020_04_cousub.cpg 
+    ├── tl_2020_04_cousub.dbf
+    ├── tl_2020_04_cousub.prj
+    ├── tl_2020_04_cousub.shp
+    ├── tl_2020_04_cousub.shp.ea.iso.xml
+    ├── tl_2020_04_cousub.shp.iso.xml
+    ├── tl_2020_04_cousub.shx
 │
-│.gitignore
-│README.md
-│bii_phx.ipynb
-│bii_phx_map.png
+├── .gitignore
+├── README.md
+├── bii_phx.ipynb
+├── bii_phx_map.png
 ```
 
 ### Data
 
-The BII data comes from the Microsoft Planetary Computer STAC catalog. This analysis focuses on the biodiversity intactness index, from years 2017 to 2020, in the Phoenix subdivision. Those will be specified in the item search. An example of how to do this call is at the link.
+The BII data comes from the Microsoft Planetary Computer STAC catalog. This analysis focuses on the biodiversity intactness index, from years 2017 to 2020, in the Phoenix subdivision. Those will be specified in the item search. An example of how to do this call is written out in the example notebook at the link.
 https://planetarycomputer.microsoft.com/dataset/io-biodiversity
 
-The Phoenix Subdivision Shapefile comes from the US Census Bureau data. The shapefile for Arizona is stored in the data folder of this repository. 
+The Phoenix Subdivision Shapefile comes from the US Census Bureau data. The shapefile for Arizona is stored in the data folder of this repository. This link leads to the Arizona 2016 census shapefile.
 https://catalog.data.gov/dataset/tiger-line-shapefile-2016-state-arizona-current-census-tract-state-based
 
 ### References
